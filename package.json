@@ -41,10 +41,10 @@
     "eslint-plugin-standard": "^4.0.0",
     "fs-extra": "^7.0.1",
     "jest": "^23.6.0",
-    "jsdom": "^13.0.0",
+    "jsdom": "^13.1.0",
     "klaw-sync": "^6.0.0",
     "lerna": "^3.6.0",
-    "nuxt-edge": "^2.4.0-25743532.657a6cc",
+    "nuxt-edge": "^2.4.0-25751130.25d26ba4",
     "standard-version": "^4.4.0"
   }
 }
