@@ -16,7 +16,8 @@ module.exports = {
 
   manifest: {
     name: 'Test Project Name',
-    description: 'Test Project Description'
+    description: 'Test Project Description',
+    fileExtension: 'webmanifest'
   },
 
   // build: {
@@ -53,13 +54,11 @@ module.exports = {
     offlineAssets: [
       '/offline.png'
     ],
-    runtimeCaching: [
-      {
-        urlPattern: 'https://google.com/.*',
-        handler: 'cacheFirst',
-        method: 'GET'
-      }
-    ]
+    runtimeCaching: [{
+      urlPattern: 'https://google.com/.*',
+      handler: 'cacheFirst',
+      method: 'GET'
+    }]
   },
 
   oneSignal: {
